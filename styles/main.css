@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+/* Extends */
+.hero__main .main__text button {
+  background-color: hsl(224deg, 93%, 58%);
+  padding: 0.5rem 2rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  color: white;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.header {
+  padding: 4rem 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+.header .header__right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .header__right .header__menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.header .header__right .header__menu a {
+  font-family: "Raleway", sans-serif;
+  color: hsl(243deg, 87%, 12%);
+  font-size: 1rem;
+  font-weight: 700;
+}
+.header .header__logo img {
+  width: 80%;
+}
+
+.hero__main {
+  display: flex;
+  padding: 4rem 3rem;
+}
+.hero__main .main__text {
+  flex: 1;
+  font-family: "Open Sans", sans-serif;
+  color: hsl(243deg, 87%, 12%);
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  flex-direction: column;
+}
+.hero__main .main__text h1 {
+  font-size: 2rem;
+  max-width: 55%;
+}
+.hero__main .main__text p {
+  padding: 1rem 0;
+}
+.hero__main .main__text input {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  margin: 0 1rem 0 0;
+  border: 1.5px solid gray;
+  border-radius: 0.15rem;
+}
+.hero__main .main__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+.hero__main .main__img img {
+  width: 60%;
+}/*# sourceMappingURL=main.css.map */

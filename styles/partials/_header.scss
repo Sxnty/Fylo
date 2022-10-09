@@ -1,0 +1,25 @@
+.header {
+    padding: $general-padding;
+    display: flex;
+    justify-content: space-between;
+    .header__right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .header__menu {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+            & a{
+                font-family:$header-font;
+                color:$primary-color1;
+                font-size: 1rem;
+                font-weight: 700;
+            }
+        }
+    }
+    .header__logo img {
+        width: 80%;
+    }
+}

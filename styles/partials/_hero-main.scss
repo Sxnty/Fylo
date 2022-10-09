@@ -1,0 +1,39 @@
+.hero__main {
+    display: flex;
+    padding: $general-padding;
+    .main__text {
+        flex: 1;
+        font-family: $body-font;
+        color: $primary-color1;
+        display: flex;
+        justify-content: center;
+        text-align: left;
+        flex-direction: column;
+        h1 {
+            font-size: 2rem;
+            max-width: 55%;
+        }
+        p {
+            padding: 1rem 0;
+        }
+        input {
+            width: fit-content;
+            padding: .5rem 1rem;
+            margin: 0 1rem 0 0;
+            border: 1.5px solid gray;
+            border-radius: .15rem;
+        }
+        button {
+            @extend %button-primary;
+        }
+    }
+    .main__img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+        img {
+            width: 60%;
+        }
+    }
+}
