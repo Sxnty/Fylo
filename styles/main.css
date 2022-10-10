@@ -273,4 +273,121 @@
   border: 1px solid white;
   border-radius: 50%;
   padding: 0.5rem;
+}
+
+@media screen and (max-width: 485px) {
+  .header {
+    position: static;
+    padding: 1rem;
+  }
+  .header .header__logo img {
+    width: 70%;
+  }
+  .header .header__right .header__menu a {
+    font-size: 0.8rem;
+  }
+  .hero__main {
+    padding: 1rem;
+    flex-direction: column-reverse;
+  }
+  .hero__main .main__text {
+    margin-top: 1rem;
+    flex: 1;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+  }
+  .hero__main .main__text h1 {
+    max-width: 100%;
+  }
+  .hero__main .main__text input {
+    display: block;
+    padding: 0.5rem 5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+  .hero__main .main__text button {
+    width: 100%;
+  }
+  .hero__main .main__img {
+    flex: 0.5;
+  }
+  .hero__main .main__img img {
+    width: 100%;
+  }
+  /*             info section             */
+  .info {
+    padding: 1rem;
+    background: url("../../images/bg-curve-mobile.svg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column-reverse;
+  }
+  .info .info__text h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .info .info__text p {
+    width: 100%;
+  }
+  .info .info__text .info__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+  }
+  .info .info__card {
+    padding: 2rem;
+    width: 100%;
+  }
+  /*             promo section            */
+  .promo {
+    padding: 3rem 1rem;
+    flex-direction: column;
+    height: 100%;
+    text-align: center;
+  }
+  .promo .promo__text {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .promo .promo__right {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .promo .promo__right input {
+    margin: 0;
+    width: 80%;
+  }
+  .promo .promo__right button {
+    width: 80%;
+  }
+  /*             footer           */
+  .footer {
+    padding: 3rem;
+  }
+  .footer .footer__top {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .footer .footer__bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .footer .footer__bottom .footer__row {
+    padding: 1.5rem 0;
+    width: 100%;
+  }
+  .footer .footer__bottom .footer__row .footer__socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }/*# sourceMappingURL=main.css.map */
