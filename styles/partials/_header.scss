@@ -2,6 +2,8 @@
     padding: $general-padding;
     display: flex;
     justify-content: space-between;
+    position: absolute;
+    width: 100%;
     .header__right {
         display: flex;
         justify-content: center;

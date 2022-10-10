@@ -1,6 +1,7 @@
 .hero__main {
     display: flex;
     padding: $general-padding;
+    height: 100vh;
     .main__text {
         flex: 1;
         font-family: $body-font;
@@ -34,6 +35,93 @@
         flex: 1;
         img {
             width: 60%;
+        }
+    }
+}
+/*             INFO SECTION             */
+
+.info {
+    padding: $general-padding;
+    background: url("../../images/bg-curve-desktop.svg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    .info__left {
+        flex: 1;
+
+    }
+    .info__right {
+        flex: 1;
+        img {
+            width: 100%;
+        }
+    }
+    .info__text {
+        h2 {
+            padding-block: 1rem;
+            font-size: 2rem;
+            max-width: 100%;
+            font-family: $body-font;
+            color:$primary-color1;
+        }
+        p {
+            width: 80%;
+            padding: .5rem 0;
+            font-family: $body-font;
+            color:$primary-color1;
+        }
+        .info__button {
+            border-bottom: 1px solid rgb(83, 83, 83);
+            max-width: fit-content;
+            display: flex;
+            align-items: center;
+            gap: .5rem;
+            a {
+                padding: .5rem 0;
+                font-family: $body-font;
+                color:$primary-color1;
+                color: gray;
+                        }
+            img {
+                width: 25px;
+            }
+
+        }
+
+    }
+    .info__card {
+        padding: 2rem;
+        p {
+            font-family: $body-font;
+            padding: 1rem 0rem;
+            color: $primary-color1;
+        }
+        img {
+            width: 25px;
+        }
+        width: 55%;
+        margin-top: 3rem;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;        .card__bottom {
+            img {
+                width: 50px;
+                height: 50px;
+                object-fit: contain;
+                border-radius: 50%;
+            }
+            display: flex;
+            .bottom__text {
+                padding-inline: 1rem;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                p {
+                    padding: 0;
+                }
+                h4 {
+                    font-family: $body-font;
+                    font-weight: bold;
+                }
+            }
         }
     }
 }

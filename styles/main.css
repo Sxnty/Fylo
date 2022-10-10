@@ -23,6 +23,8 @@
   padding: 4rem 3rem;
   display: flex;
   justify-content: space-between;
+  position: absolute;
+  width: 100%;
 }
 .header .header__right {
   display: flex;
@@ -48,6 +50,7 @@
 .hero__main {
   display: flex;
   padding: 4rem 3rem;
+  height: 100vh;
 }
 .hero__main .main__text {
   flex: 1;
@@ -82,4 +85,90 @@
 }
 .hero__main .main__img img {
   width: 60%;
+}
+
+/*             INFO SECTION             */
+.info {
+  padding: 4rem 3rem;
+  background: url("../../images/bg-curve-desktop.svg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+}
+.info .info__left {
+  flex: 1;
+}
+.info .info__right {
+  flex: 1;
+}
+.info .info__right img {
+  width: 100%;
+}
+.info .info__text h2 {
+  padding-block: 1rem;
+  font-size: 2rem;
+  max-width: 100%;
+  font-family: "Open Sans", sans-serif;
+  color: hsl(243deg, 87%, 12%);
+}
+.info .info__text p {
+  width: 80%;
+  padding: 0.5rem 0;
+  font-family: "Open Sans", sans-serif;
+  color: hsl(243deg, 87%, 12%);
+}
+.info .info__text .info__button {
+  border-bottom: 1px solid rgb(83, 83, 83);
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.info .info__text .info__button a {
+  padding: 0.5rem 0;
+  font-family: "Open Sans", sans-serif;
+  color: hsl(243deg, 87%, 12%);
+  color: gray;
+}
+.info .info__text .info__button img {
+  width: 25px;
+}
+.info .info__card {
+  padding: 2rem;
+  width: 55%;
+  margin-top: 3rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.info .info__card p {
+  font-family: "Open Sans", sans-serif;
+  padding: 1rem 0rem;
+  color: hsl(243deg, 87%, 12%);
+}
+.info .info__card img {
+  width: 25px;
+}
+.info .info__card .card__bottom {
+  display: flex;
+}
+.info .info__card .card__bottom img {
+  width: 50px;
+  height: 50px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 50%;
+}
+.info .info__card .card__bottom .bottom__text {
+  padding-inline: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.info .info__card .card__bottom .bottom__text p {
+  padding: 0;
+}
+.info .info__card .card__bottom .bottom__text h4 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
 }/*# sourceMappingURL=main.css.map */
