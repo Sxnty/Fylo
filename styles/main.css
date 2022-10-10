@@ -8,7 +8,7 @@
 }
 
 /* Extends */
-.hero__main .main__text button {
+.promo .promo__right button, .hero__main .main__text button {
   background-color: hsl(224deg, 93%, 58%);
   padding: 0.5rem 2rem;
   border: 1px solid transparent;
@@ -17,6 +17,7 @@
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  cursor: pointer;
 }
 
 .header {
@@ -171,4 +172,101 @@
 .info .info__card .card__bottom .bottom__text h4 {
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
+}
+
+/*             promo section            */
+.promo {
+  padding: 1rem 15rem;
+  display: flex;
+  background-color: hsl(238deg, 22%, 44%);
+  height: 20vh;
+}
+.promo .promo__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  flex: 1;
+}
+.promo .promo__text p {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  max-width: 80%;
+  padding-top: 0.5rem;
+}
+.promo .promo__text h3 {
+  text-align: left;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 1.5rem;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+.promo .promo__right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  align-items: start;
+  justify-content: center;
+}
+.promo .promo__right input {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.5rem 5rem;
+  margin: 0 1rem 0 0;
+  border: 1.5px solid gray;
+  border-radius: 0.15rem;
+  font-family: "Raleway", sans-serif;
+}
+.promo .promo__right button {
+  margin-top: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+/*             footer           */
+.footer {
+  padding: 4rem 3rem;
+  background-color: hsl(243deg, 87%, 12%);
+  height: 100%;
+}
+.footer .footer__top img {
+  filter: invert(100) brightness(100);
+}
+.footer .footer__bottom {
+  display: flex;
+}
+.footer .footer__row {
+  color: hsl(240deg, 75%, 98%);
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.footer .footer__row img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.footer .footer__row > div {
+  gap: 1rem;
+  display: flex;
+  padding: 0.5rem 0;
+}
+.footer .footer__row a {
+  padding: 0.5rem 0;
+  color: hsl(240deg, 75%, 98%);
+}
+.footer .footer__row .footer__socials {
+  gap: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.footer .footer__row .footer__socials i {
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 0.5rem;
 }/*# sourceMappingURL=main.css.map */

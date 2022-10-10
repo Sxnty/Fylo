@@ -87,7 +87,6 @@
             }
 
         }
-
     }
     .info__card {
         padding: 2rem;
@@ -125,3 +124,109 @@
         }
     }
 }
+
+
+/*             promo section            */
+.promo {
+    padding: 1rem 15rem;
+    display: flex;
+    background-color:$primary-color2;
+    height: 20vh;
+
+    .promo__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+        flex: 1;
+        p {
+            color: white;
+            font-family: $body-font;
+            max-width: 80%;
+            padding-top: .5rem;
+        }
+        h3 {
+            text-align: left;
+            width: fit-content;
+            font-size: 1.5rem;
+            color: white;
+            font-family: $body-font;
+        }
+    }
+    .promo__right {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        align-items: start;
+        justify-content: center;
+        input {
+            width: fit-content;
+            padding: .5rem 5rem;
+            margin: 0 1rem 0 0;
+            border: 1.5px solid gray;
+            border-radius: .15rem;
+            font-family: $header-font;
+        }
+        button {
+            margin-top: 1rem;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+            @extend %button-primary
+            
+        }
+    }
+    
+}
+
+/*             footer           */
+.footer {
+    padding: $general-padding;
+    background-color: $primary-color1;
+    height: 100%;
+    
+
+    .footer__top {
+        img {
+            filter: invert(100)
+            brightness(100);
+        }
+        
+    }
+    .footer__bottom {
+        display: flex;
+    }
+    .footer__row {
+        img {
+            object-fit: contain;
+        }
+        color: $neutral-color1;
+        font-family: $body-font;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        
+        >div {
+            gap: 1rem;
+            display: flex;
+            padding: .5rem 0;
+        }
+        a {
+            padding: .5rem 0;
+            color:$neutral-color1;
+        }
+        .footer__socials {
+            gap: 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            i {
+                border: 1px solid white;
+                border-radius: 50%;
+                padding: .5rem;
+            }
+
+        }
+    }
+}
+
