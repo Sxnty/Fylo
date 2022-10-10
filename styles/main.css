@@ -78,6 +78,12 @@
   border: 1.5px solid gray;
   border-radius: 0.15rem;
 }
+.hero__main .main__text button {
+  transition: background 250ms;
+}
+.hero__main .main__text button:hover {
+  background-color: hsl(224deg, 91%, 69%);
+}
 .hero__main .main__img {
   display: flex;
   justify-content: center;
@@ -132,6 +138,10 @@
   font-family: "Open Sans", sans-serif;
   color: hsl(243deg, 87%, 12%);
   color: gray;
+  transition: color 250ms;
+}
+.info .info__text .info__button a:hover {
+  color: rgb(197, 197, 197);
 }
 .info .info__text .info__button img {
   width: 25px;
@@ -224,6 +234,10 @@
 .promo .promo__right button {
   margin-top: 1rem;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  transition: background-color 250ms;
+}
+.promo .promo__right button:hover {
+  background-color: hsl(224deg, 91%, 69%);
 }
 
 /*             footer           */
@@ -258,8 +272,12 @@
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  padding: 0.5rem 0;
+  margin: 0.5rem 0;
   color: hsl(240deg, 75%, 98%);
+  transition: color 200ms;
+}
+.footer .footer__row a:hover {
+  color: hsl(238deg, 22%, 44%);
 }
 .footer .footer__row .footer__socials {
   gap: 2rem;
@@ -273,6 +291,11 @@
   border: 1px solid white;
   border-radius: 50%;
   padding: 0.5rem;
+  transition: color, border 200ms;
+}
+.footer .footer__row .footer__socials i:hover {
+  color: hsl(238deg, 22%, 44%);
+  border: 1px solid hsl(238deg, 22%, 44%);
 }
 
 @media screen and (max-width: 485px) {

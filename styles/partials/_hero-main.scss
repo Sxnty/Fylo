@@ -26,6 +26,10 @@
         }
         button {
             @extend %button-primary;
+            transition: background 250ms;
+            &:hover {
+                background-color: hsl(224, 91%, 69%);
+            }
         }
     }
     .main__img {
@@ -81,6 +85,10 @@
                 font-family: $body-font;
                 color:$primary-color1;
                 color: gray;
+                transition: color 250ms;
+                &:hover {
+                    color: rgb(197, 197, 197);
+                }
                         }
             img {
                 width: 25px;
@@ -171,7 +179,11 @@
         button {
             margin-top: 1rem;
             box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-            @extend %button-primary
+            @extend %button-primary;
+            transition: background-color 250ms;
+            &:hover {
+                background-color: hsl(224, 91%, 69%);
+            }
             
         }
     }
@@ -212,8 +224,12 @@
         }
         a {
             width: fit-content;
-            padding: .5rem 0;
+            margin: .5rem 0;
             color:$neutral-color1;
+            transition: color 200ms;
+            &:hover {
+                color: $primary-color2;
+            }
         }
         .footer__socials {
             gap: 2rem;
@@ -226,6 +242,11 @@
                 border: 1px solid white;
                 border-radius: 50%;
                 padding: .5rem;
+                transition: color, border 200ms;
+                &:hover {
+                    color: $primary-color2;
+                    border: 1px solid $primary-color2;
+                }
             }
 
         }
