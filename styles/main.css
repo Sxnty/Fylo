@@ -255,6 +255,9 @@
   padding: 0.5rem 0;
 }
 .footer .footer__row a {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   padding: 0.5rem 0;
   color: hsl(240deg, 75%, 98%);
 }
@@ -266,6 +269,7 @@
   text-align: center;
 }
 .footer .footer__row .footer__socials i {
+  cursor: pointer;
   border: 1px solid white;
   border-radius: 50%;
   padding: 0.5rem;

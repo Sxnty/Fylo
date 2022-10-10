@@ -211,6 +211,7 @@
             padding: .5rem 0;
         }
         a {
+            width: fit-content;
             padding: .5rem 0;
             color:$neutral-color1;
         }
@@ -221,6 +222,7 @@
             justify-content: center;
             text-align: center;
             i {
+                cursor: pointer;
                 border: 1px solid white;
                 border-radius: 50%;
                 padding: .5rem;
